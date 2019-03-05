@@ -1,5 +1,15 @@
 # learningFlutterBlog
 
+## 3/5
+### Route
+
+Usually used in ```onPressed``` of a Button. ```Navigator.push(context, MaterialPageRoute(builder: ( BuildContext context)=>SomeOtherPage()} ))```
+
+``` MaterialPageRoute``` is the for Route using. 
+
+Still Do't know how to use referencial type function to get back.   ``` onPressed: goBack(context)``` will have bug
+
+
 ## 3/4 
 
 ### ListView: For rendering Lists.  
