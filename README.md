@@ -15,6 +15,6 @@ use only when widgets are at confirmed positions. Column trieds to squeeze all e
 ### Conditional display
 Widgets just like React.js, you can define before return, or in return but use ? : exp. Or you can just define another function which returns a widget.
 
-### DO not null || undefined to a Widget
+### DO not return null || undefined to a Widget
 if you really don't wanna show things, just return ```Container()```
 
