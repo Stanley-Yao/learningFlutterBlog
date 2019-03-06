@@ -1,5 +1,10 @@
 # learningFlutterBlog
 
+## 3/6
+
+Receiveing data through ``` Navigator.push```, can be done with adding a ```Future```(in JS called Promise). But keep mind, data need to be declared type after ```push```, Eg. ```Navigator.push<bool> ( ...) .then( (bool val) { do sth here} )
+
+
 ## 3/5
 ### Route
 
