@@ -9,6 +9,9 @@ Usually used in ```onPressed``` of a Button. ```Navigator.push(context, Material
 
 Still Do't know how to use referencial type function to get back.   ``` onPressed: goBack(context)``` will have bug
 
+### Data type:
+
+Map is like JSON. 
 
 ## 3/4 
 
