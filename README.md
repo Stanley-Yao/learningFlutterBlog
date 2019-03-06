@@ -1,9 +1,11 @@
 # learningFlutterBlog
 
 ## 3/6
+###Passing data:
 
 Passing data BACK through ``` Navigator.push```, can be done with adding a ```Future```(in JS called Promise). But keep mind, data need to be declared type after ```push```, Eg. ```Navigator.push<bool> ( ...) .then( (bool val) { do sth here} )```
 
+WillPopScopeClass: https://docs.flutter.io/flutter/widgets/WillPopScope-class.html 
 
 ## 3/5
 ### Route
