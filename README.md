@@ -7,7 +7,7 @@ Passing data BACK through ``` Navigator.push```, can be done with adding a ```Fu
 
 WillPopScopeClass: https://docs.flutter.io/flutter/widgets/WillPopScope-class.html 
 
-```Navigator.pushReplacement``` will lose state data.
+```Navigator.pushReplacement``` Tabs and Drawers will switch to different stack , so that will lose all the data in the stack.
 
 ## 3/5
 ### Route
