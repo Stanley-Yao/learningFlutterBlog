@@ -7,6 +7,8 @@ Passing data BACK through ``` Navigator.push```, can be done with adding a ```Fu
 
 WillPopScopeClass: https://docs.flutter.io/flutter/widgets/WillPopScope-class.html 
 
+```Navigator.pushReplacement``` will lose state data.
+
 ## 3/5
 ### Route
 
