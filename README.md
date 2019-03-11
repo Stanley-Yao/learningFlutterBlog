@@ -1,7 +1,7 @@
 # learningFlutterBlog
 
-##3/11
-###Tabs in one page:
+## 3/11
+### Tabs in one page:
 wrap page with ```DefaultTabController```, it takes length property, which should equals to the qty of tabs in current page. 
 
 children of ```TabBarView``` should be in the same order of tabs of ```TabBar``` 
