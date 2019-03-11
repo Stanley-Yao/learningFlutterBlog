@@ -1,6 +1,10 @@
 # learningFlutterBlog
 
 ## 3/11
+
+### onGenerateRoute
+Can visit the dynamic route 
+
 ### Tabs in one page:
 wrap page with ```DefaultTabController```, it takes length property, which should equals to the qty of tabs in current page. 
 
