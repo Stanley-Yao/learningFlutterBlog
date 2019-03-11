@@ -9,6 +9,9 @@ children of ```TabBarView``` should be in the same order of tabs of ```TabBar```
 ###New way in Route:
 Just like I did in React, in ```MaterialApp```, I can define ```routes``` (Map),  ```{ '/admin': (BuildContext context) => ProductsAdminPage()},} ```. Of course, I need to Import Pages that needed.  And we can use ```pushReplacementNamed('/admin')``` instead, so there is no need to write a bunch of codes describe how to do routing. 
 
+### uncomfortable
+It is not easy way to fit in dart from JavaScript, which is a flexible-grammar language. I always forgot to add semicolon.
+
 ## 3/6
 ###Passing data:
 
