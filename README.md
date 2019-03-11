@@ -6,7 +6,7 @@ wrap page with ```DefaultTabController```, it takes length property, which shoul
 
 children of ```TabBarView``` should be in the same order of tabs of ```TabBar``` 
 
-###New way in Route:
+### New way in Route:
 Just like I did in React, in ```MaterialApp```, I can define ```routes``` (Map),  ```{ '/admin': (BuildContext context) => ProductsAdminPage()},} ```. Of course, I need to Import Pages that needed.  And we can use ```pushReplacementNamed('/admin')``` instead, so there is no need to write a bunch of codes describe how to do routing. 
 
 ### uncomfortable
