@@ -1,10 +1,13 @@
 # learningFlutterBlog
 
 ##3/11
-Tabs in one page:
+###Tabs in one page:
 wrap page with ```DefaultTabController```, it takes length property, which should equals to the qty of tabs in current page. 
 
 children of ```TabBarView``` should be in the same order of tabs of ```TabBar``` 
+
+###New way in Route:
+Just like I did in React, in ```MaterialApp```, I can define ```routes``` (Map),  ```{ '/admin': (BuildContext context) => ProductsAdminPage()},} ```. Of course, I need to Import Pages that needed.  And we can use ```pushReplacementNamed('/admin')``` instead, so there is no need to write a bunch of codes describe how to do routing. 
 
 ## 3/6
 ###Passing data:
